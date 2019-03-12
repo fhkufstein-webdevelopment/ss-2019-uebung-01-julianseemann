@@ -6,6 +6,24 @@ body {
     font-size:14px;
     margin:0;
     padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
+}
+
+header nav .level_1 li:hover .level_2 {
+    display: block;
+    position: relative;
+}
+
+header nav .level_1 li:hover .level_2 {
+    display: block;
+    position: absolute;
+
+}
+
+header nav .mainNavi {
+    display: inline;
 }
 
 .logo {
@@ -26,6 +44,10 @@ body {
 
     margin-top:10px;
     margin-bottom:50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
 }
 
 .stripe {
@@ -39,13 +61,16 @@ body {
     content:"\f155";
     font-family: "FontAwesome", sans-serif;
     display: inline-block;
-    margin-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
 }
 
 footer {
     background-color:#f8f9fa;
     height: 150px;
     padding-top:20px;
+    width:100%;
 }
 
 
